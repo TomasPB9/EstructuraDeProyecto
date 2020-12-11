@@ -8,6 +8,75 @@
   box-sizing: border-box;
 }
 
+/* todos los hijos de header tendran esas propiedades */
+header > * {
+  display: inline-block;
+}
+
+
+.header-container{
+  height:155px ;
+  width:100%;
+  margin-bottom: 273px;
+  background-color: #fffbf7;
+}
+
+.nav_logo{
+  display: inline-flex;
+  margin-top: 25px;
+  margin-left: 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.navbar{
+  display: inline-block;
+  padding-top: 30px;
+  margin-right: 350px;
+  margin-left: 300px;
+}
+.nav_ul{
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.nav_li {
+  display: inline;
+  padding-bottom: 15px;
+  margin-right: 6px;
+  list-style: none;
+}
+
+.actions{
+  display: inline;
+}
+
+.sign_in{
+  color:  #67b54b;;
+  display: inline;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.free-bItem{
+  display: inline;
+  margin: 5px;
+  color: white;
+  background-color: #67b54b;
+  height: 60px;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  
+}
+
+.nav_ul .nav_li .nav-link{
+  color: #025157;
+  text-decoration: none;
+}
+
+
+/*  SESION 1 */
 /* con puro nombre del elemento */
 body {
   background-color: #fffbf7;
@@ -52,7 +121,6 @@ input,button {
   border-radius: 8px;
 }
 
-
 input {
   border: 1px solid #b6b6b6;
   padding: 6px 20px;
@@ -73,6 +141,8 @@ button {
   cursor: pointer;
 }
 
-img {
+.item-capterra {
     margin-top: 32px;
 }
+
+
